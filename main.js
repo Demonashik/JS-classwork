@@ -62,6 +62,14 @@
 
 let culc = `-,+,/,*`
 
+let value = "+"
+let value1= "-" 
+let value2 = "*"
+let value3= "/" 
+let value = prompt(", ")
+ let result = 
+ console.log(result)
+
 
 
 
