@@ -177,10 +177,31 @@ switch (number) {
 
 
 
+/* function nameFunction() { //название и параметры функции
+    //тело функции
+    let mylet = 50 
+    // alert(mylet)
+    alert('Hello world')
+}
+
+nameFunction(); //функции всегда нужно вызывать иначе работать не будет в скобках может быть её имя или параметры 
+
+mylet = 10 
+alert(mylet) */
 
 
+/* function printWord(value, value1) {
+    alert(value + "как твои дела?" + value1)
+}
 
+printWord("Tony", 123) */
 
+function printWord(value = "значение по умолчанию") {
+    alert(value)
+    alert(value1) 
+}
+
+printWord();
 
 
 
