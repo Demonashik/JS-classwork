@@ -196,12 +196,19 @@ alert(mylet) */
 
 printWord("Tony", 123) */
 
-function printWord(value = "значение по умолчанию") {
+/* function printWord(value = "значение по умолчанию") {
     alert(value)
     alert(value1) 
 }
 
-printWord();
+printWord(); */
 
+/* function add(a,b) {
+    return a + b 
+}
+alert(add(2,2))
+ */
+
+age = prompt(age > 18) ? "" : "родители Разрешили?" 
 
 
