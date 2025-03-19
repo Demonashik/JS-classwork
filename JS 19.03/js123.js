@@ -106,4 +106,54 @@ let showQuestion = function(question) {
 askQuestion(showQuestion) */ // ++
 
 
-//
+//Стрелочные функции
+//ArrowFunc
+
+/* let sum = (a,b) => a + b
+alert (sum(1,2)) */
+
+//NO
+
+/* let sum = a => a + 10
+alert(sum(2)) */
+
+
+/* let age = prompt('Сколько вам лет?')
+
+let welcome = (age <18) ? 
+  () => alert("Привет") :
+  () => alert('Хай') */
+
+  //Многострочные стрелочные функции 
+
+/* let sum = (a,b) => {
+  let result = a + b 
+  return result
+}
+alert(sum(1,2))*/
+
+
+
+function ask(question,yes,no) => {
+  if (confirm(question)) yes()
+    else no();
+}
+ask(
+  "Вы согласны?",
+  () => alert("Вы согласились."),
+  () => alert("Вы отменили выполнение.")
+);
+
+
+
+
+/* function ask(question, yes, no) {
+  if (confirm(question)) yes()
+  else no();
+}
+
+ask(
+  "Вы согласны?",
+  function() { alert("Вы согласились."); },
+  function() { alert("Вы отменили выполнение."); }
+); */ 
